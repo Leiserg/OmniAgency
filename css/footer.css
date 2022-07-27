@@ -1,0 +1,165 @@
+.footer-mobile {
+    display: none;
+}
+
+.footer {
+    margin-top: -30px;
+    border: none;
+    padding: 54px 0 50px;
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__container {
+    padding-left: 150px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    color: var(--color-primary);
+}
+
+.footer__column-1 {
+    margin-right: 195px;
+}
+
+.footer__logo-link {
+    margin-bottom: 54px;
+}
+
+.footer__address {
+    position: relative;
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.footer__address-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer__address-text {
+    padding: 13px 0 0 23px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer__copyright {
+    color: var(--color-text);
+}
+
+.subnav {
+    padding-top: 55px;
+    margin-right: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+
+.subnav__link-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.subnav__item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.subnav__item:not(:first-child) {
+    text-decoration: underline;
+}
+
+.subnav__item:hover {
+    color: var(--color-active);
+}
+
+.subnav__item:active {
+    color: var(--color-active);
+}
+
+.subnav__link:hover {
+    color: var(--color-active);
+}
+
+.subnav__link:active {
+    color: var(--color-active);
+}
+
+.footer__column-3 {
+    position: relative;
+    width: 337px;
+    margin-left: auto;
+    padding: 52px 89px 0 0;
+}
+
+.footer__phone {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.footer__phone:hover {
+    color: var(--color-active);
+}
+
+.footer__email {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.footer__email:hover {
+    color: var(--color-active);
+}
+
+.social__list-footer {
+    width: 240px;
+    height: 32px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.footer__link {
+    justify-content: flex-end;
+}
+
+.social__item-footer {
+    width: 32px;
+    height: 32px;
+}
+
+.social__image {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__link {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer__link:hover {
+    color: var(--color-active);
+}
+
+.confedential {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--color-active);
+}
+
+.confedential:hover {
+    color: var(--color-primary);
+}
+.oficial__link {
+    margin-bottom: 10px;
+}
+
+.oficial__item{
+    align-self: center;
+    font-size: 11px;
+}
+

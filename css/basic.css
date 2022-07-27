@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    position: relative;
+    min-width: 320px;
+
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-primary);
+    background-color: #fff;
+}
+
+img, svg {
+    max-height: 100%;
+    height: auto;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+}
+
+input, button, textarea {
+    font: inherit;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: color  0.2s ease-in-out;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h3,
+h4 {
+    font-family: Mulish, sans-serif;
+    color: var(--color-primary);
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a
+figure,
+fieldset {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    cursor: default;
+}
+
+iframe {
+    border: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    min-width: 300px;
+    margin: 0px auto;
+    padding: 0 44px;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+.social__item {
+    transition: background-color 0.3s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 225px;
+    height: 54px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+    padding: 16px 26px;
+    
+    border: transparent;
+    border-radius: 6px;
+    color: #fff;
+    background-color: var(--color-active);
+    box-shadow: 13px 4px 30px rgba(203, 173, 149, 0.45);
+
+    transition: box-shadow  0.2s ease-in-out;
+}
+
+.btn:active {
+    opacity: 0.4;
+    box-shadow: 13px 4px 30px rgba(203, 173, 149, 0.45);
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 4px 30px rgba(203, 173, 149, 0.8), 13px 4px 30px rgba(203, 173, 149, 0.45);
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}

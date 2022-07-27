@@ -1,0 +1,448 @@
+@media (max-width: 1910px) {
+    .container {
+        width: 100%;
+        max-width: 1024px;
+        min-width: 300px;
+        margin: 0px auto;
+        padding: 0 27px;
+    }
+
+    .stage {
+        padding: 0;
+    }
+
+    /* Адаптив HEADER */
+    .header__container {
+        position: relative;
+        width: 970px;
+        height: 121px;
+    }
+
+    .header__main {
+        gap: 14px;
+    }
+
+/* Стилизую select при выборе языка */
+    .select-css { 
+        background-color: #fff;
+        padding: 0 1.4em .5em 0; 
+    }
+    
+    .lang__item {
+        font-size: 10px;
+    }
+    
+    .header__lang::before{
+        content: '';
+        position: absolute;
+        top: 60%;
+        left: 0;   
+        width: 100%;
+        height: 1px;
+        background: #A4A4A4;
+    }
+
+    .header__lang {
+        margin-right: 60px;
+    }
+    
+    .social__list {
+        margin-right: 25px;
+    }
+    
+    .header__logo {
+        width: 310px;
+        height: 57px;
+        margin-right: 16px;
+        background-color: #fff;
+    }
+    
+/* Стилизую кнопку поиска*/
+    
+    .d6 {
+        display: none;
+    }
+    
+    .d7 {
+        display: block  ;
+        background: transparent;
+        background-image: url(../img/search_icon.svg);
+        background-repeat: no-repeat;
+        border: none;
+        height: 24px;
+        width: 24px;
+        position: relative;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    
+    .header__shopping-cart {
+        margin-left: auto;
+        cursor: pointer;
+    }
+    
+    .header__navigation{
+        width: 877px;
+        height: 47px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    
+    .navigation__list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+    
+    .navigation__item {
+        font-weight: 700;
+    }
+    
+    .navigation__link:hover {
+        color: var(--color-active);
+    }
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+      /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        /* color: white; */
+        padding: 0;
+        margin: 0;
+    }
+    
+    .dropdown-content {
+        width: 877px;
+        /* height: 47px; */
+        display: none;
+        position: absolute;
+        left: 358px;
+        background-color: #fff;
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        color: var(--color-active);
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Стилизую page-head */
+    .page-head {
+        padding-top: 181px;
+        padding-bottom: 86px;
+        background-image: none;
+    }
+    
+    .title__wrap {
+        margin-left: 27px;
+    }
+    
+    .page-head__mill-image {
+        position: relative;
+        width: 197px;
+        height: 252px;
+        margin-right: 15px;
+        z-index: 9;
+    }
+    
+    .page-head__title {
+        display: inline-block;
+        margin-top: 74px;
+        vertical-align: top;
+        font-family: Mulish;
+        font-size: 55px;
+        line-height: 95%;
+        color: var(--color-second);
+    }
+    
+    .page-head__main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 70px;
+        margin: -60px 0 86px;
+    }
+    
+    .page-head__slider {
+        /* width: 100%; */
+        width: 965px; 
+        height: 364px;
+        background-image: url(../img/slider_bg.png);
+        background-size: cover;
+    }
+    
+    /* Стили для блока с видео */
+    
+    .page-head__promo {
+        position: relative;
+        display: flex;
+        gap: 60px;
+        width: 100%;
+        height: 234px;
+    }    
+    /* Конец стилей видео*/
+
+    /* Стилизую Products */
+    .products__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .products__item {
+        width: 270px;
+        height: 240px;
+        border-radius: 8px;
+        background-color: #F4EEE5;
+        text-align: center;
+    }
+    
+    .product__image {
+        width: 211px;
+        height: auto;
+        margin: -25px 0 21px;
+    }
+    
+    .products__link {
+        font-size: 18px;
+    }
+
+    /* Стилизую Путь */
+    .stage__purchase{
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .stage__purchase-image {
+        width: 618px;
+        height: 416px;
+    }
+
+    .additional-stage__bg {
+        width: 47vw;
+    }
+
+    .additional-stage__content {
+        align-items: center;
+        padding-left: 30px;
+        width: 53vw;
+    }
+
+    .additional__description {
+        margin: 0;
+    }
+
+    .stage__clearing {
+        column-gap: 25px;
+    }
+    .clearing__picture {
+        width: 437;
+        height: 397;
+    }
+
+    .sorting__list {
+        width: 970px;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 50px;
+        row-gap: 72px;
+    }
+
+    .sorting__item {
+        text-align: center;
+    }
+
+    .product__type-picture {
+        width: 560px;
+        height: 384px;
+        margin-left: -10px;
+    }
+
+    .stage__product-type {
+        white-space: nowrap;
+        gap: 1px;
+    }
+
+    /* Стилизую Packing */
+
+    /* Картинка с муковозом */
+    .packing__item:nth-child(1) .packing__picture {
+        margin: 0 auto;
+        width: 773px;
+        height: 254px;
+    }
+
+    /* Картинка с видами тары */
+    .packing__item:nth-child(2) .packing__picture {
+        margin: 0 auto;
+        width: 483px;
+        height: 338px;
+    }
+
+    .packing__list {
+        gap: 75px;
+    }
+
+    /* Стилизую Поставку */
+
+    .stage__map-image {
+        display: none;
+    }
+
+    .stage__map {
+        height: 740px;
+        width: 1024px;
+        background-image: url(../img/map_1024.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* Стилизую обратную связь */
+
+    .request {
+        height: 720px;
+        background-color: var(--color-primary);
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .request__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .request__info .request__wrap .request__description:last-child {
+        margin: 0;
+    }
+
+    .request__content {
+        padding: 53px 45px 100px;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    /* Стилизую Форму отправки */
+    .form__inputs {
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .request__checkbox {
+        text-align: center;
+    }
+
+    .request__btn {
+        text-align: center;
+    }
+
+    /* Стилизую футер */
+    .footer {
+        margin-top: -18px;
+        padding-bottom: 30px;
+    }
+    
+    .footer__container {
+        gap: 30px;
+    }
+
+    .footer__colomn-1 {
+        margin-right: 30px;
+    }
+
+    .footer__logo-link {
+        width: 168px;
+        height: 107px;
+        margin-bottom: 107px;
+    }
+
+    .footer__address-text {
+        white-space: nowrap;
+        font-size: 18px;
+        margin-bottom: 101px;
+    }
+
+    .footer__copyright {
+        font-size: 16px;;
+    }
+
+    /* Стилизую меню футера */
+
+    .subnav {
+        padding-top: 0;
+        margin-right: 0;
+        gap: 80px;
+    }
+
+    .subnav__link-title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .subnav__item {
+        font-size: 16px;
+    }
+    
+    .subnav__item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+
+    /* Стилизую третью колонку */
+    .footer__column-3 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0 0 87px 0;
+    }
+
+    .social__list-footer {
+        margin-bottom: 16px;
+    }
+
+    .footer__link {
+        padding-right: 25px;
+    }
+
+    .confedential {
+        position: absolute;
+        justify-content: flex-start;
+        left: -570px;
+        bottom: 30px;
+    }
+
+    /* Отключаю пунктирные линии и подсказки */ 
+    .dashed-line,
+    .frame-1,
+    .frame-2,
+    .line-frame__1,
+    .line-frame__2 {
+        display: none;
+    }
+}
